@@ -66,7 +66,9 @@ curl -fsSL -o ~/.local/share/konsole/kanagawa-dragon.colorscheme https://raw.git
 curl -fsSL -o ~/.local/share/konsole/kanagawa-lotus.colorscheme https://raw.githubusercontent.com/kanagawa-community/konsole/main/themes/kanagawa-lotus.colorscheme
 ```
 
-You can also clone the repository and copy everything in `themes/`.
+Or clone the repository and run `./install.sh`. It installs all three variants,
+or only the ones you name, for example `./install.sh dragon lotus`. `./uninstall.sh`
+takes the same names and removes them.
 
 ## Usage
 
